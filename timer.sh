@@ -17,14 +17,14 @@ while getopts "m:s:" opt; do
     case "$opt" in 
         m) total_seconds=$(( total_seconds + $OPTARG * 60 ));;
         s) total_seconds=$(( total_seconds + $OPTARG ));;
-        \?) exit 1
+        ?) exit 1;;
     esac    
 done 
 
 if [[ $total_seconds -gt 0 ]]; then
     while [[ $total_seconds -gt 0  ]]; do 
         echo "${total_seconds}s"
-        total_seconds=$(( --total_seconds ))
+        let total_seconds-=1
         sleep 1s
     done
 fi 
