@@ -1,4 +1,15 @@
 #!/bin/bash
+
+# Author: Emmanuel Ramos
+# Date Created: 08/03/2023
+# Last Modified: 08/03/2023
+
+# Description
+# Parses the log trying to find malicious IPs. 
+
+# Usage:
+# ./log-reader.sh
+
 logs=$(curl -s https://coderbyte.com/api/challenges/logs/web-logs-raw)
 
 IFS=

@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Author: Emmanuel Ramos
+# Date Created: 08/03/2023
+# Last Modified: 08/03/2023
+
+# Description
+# Using the select command to infer the chosen city. 
+
+# Usage:
+# ./city_checker.sh
+
 PS3="Please, select a city: "
 select city in Tokyo London "Los Angeles" Moscow Dubai Manchester "New York" Paris Bangalore Johannesburg Istanbul Milan "Abu Dhabi" Pune Nairobi Berlin Karachi Madrid; do
     case "$city" in

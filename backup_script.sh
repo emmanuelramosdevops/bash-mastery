@@ -5,10 +5,10 @@
 # Last Modified: 07/17/2023
 
 # Description
-# Creates a backup in $currentdir folder of all files in the $HOME directory 
+# Creates a backup in $currentdir folder of all files in the $HOME directory. 
 
 # Usage:
-# backup_script
+# ./backup_script.sh
 
 echo "Hello, ${USER^}"
 echo "Will now backup your home directory, $HOME"
