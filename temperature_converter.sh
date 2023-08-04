@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Author: Emmanuel Ramos
-# Date Created: 08/03/2023
-# Last Modified: 08/03/2023
-
 # Description
 # Converts Celsius to Fahrenheit and the inverse.
 

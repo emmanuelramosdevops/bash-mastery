@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Author: Emmanuel Ramos
-# Date Created: 07/15/2023
-# Last Modified: 07/17/2023
-
 # Description
 # Creates a backup in $currentdir folder of all files in the $HOME directory. 
 
